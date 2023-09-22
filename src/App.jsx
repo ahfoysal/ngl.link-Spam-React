@@ -34,6 +34,15 @@ function App() {
           CDI
         </h2>
       </div>
+      <h2 className=" text-center text-base 	 text-white  italic">
+        By{" "}
+        <a
+          className="text-[#4baff1]"
+          href="https://www.instagram.com/not_pewdss_/"
+        >
+          Pewds
+        </a>
+      </h2>
 
       <div className="flex gap-12 flex-col md:flex-row ">
         <div className="course-container w-full md:w-[50%] mx-auto">
