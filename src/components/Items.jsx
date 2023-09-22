@@ -99,7 +99,7 @@ const Items = ({ item, fetchUser }) => {
             <button
               onClick={() => handleUpdateClick(editableUser)}
               className="py-3 px-4 bg-[#3ff157] h-full text-sm pl-3 pr-1 font-medium rounded-l-xl text-white
-          duration-500 translate-x-full group-hover:translate-x-0 ease group-hover:opacity-100"
+            duration-500 translate-x-full group-hover:translate-x-0 ease group-hover:opacity-100"
             >
               Update
             </button>
@@ -107,7 +107,7 @@ const Items = ({ item, fetchUser }) => {
             <button
               onClick={() => handleEditClick(item)} // Trigger edit mode
               className="py-3 px-4 bg-[#3ff157] h-full text-sm pl-3 pr-1 font-medium rounded-l-xl text-white
-        duration-500 translate-x-full group-hover:translate-x-0 ease group-hover:opacity-100 "
+          duration-500 translate-x-full group-hover:translate-x-0 ease group-hover:opacity-100 "
             >
               Edit
             </button>
@@ -116,7 +116,7 @@ const Items = ({ item, fetchUser }) => {
             <button
               onClick={() => setIsEditing(false)}
               className="py-3 bg-[#FD4449] h-full text-sm pl-3 pr-1 font-medium text-white
-  duration-500 translate-x-full group-hover:translate-x-0 ease group-hover:opacity-100 opacity-0"
+    duration-500 translate-x-full group-hover:translate-x-0 ease group-hover:opacity-100 opacity-0"
             >
               Cancel
             </button>
@@ -124,7 +124,7 @@ const Items = ({ item, fetchUser }) => {
             <button
               onClick={() => handleDelete(item)}
               className="py-3 bg-[#FD4449] h-full text-sm pl-3 pr-1 font-medium text-white
-      duration-500 translate-x-full group-hover:translate-x-0 ease group-hover:opacity-100 opacity-0"
+        duration-500 translate-x-full group-hover:translate-x-0 ease group-hover:opacity-100 opacity-0"
             >
               Delete
             </button>
@@ -132,6 +132,18 @@ const Items = ({ item, fetchUser }) => {
         </div>
       </Accordion.Content>
     </Accordion>
+    // <div
+    //   className="collapse collapse-plus "
+    //   onClick={() => setIsEditing(false)}
+    // >
+    //   <input type="radio" name="my-accordion-3" checked="checked" />
+    //   <div className="collapse-title text-xl font-medium">
+    //     Click to open this one and close others
+    //   </div>
+    //   <div className="collapse-content">
+    //     <p>hello</p>
+    //   </div>
+    // </div>
   );
 };
 
