@@ -23,26 +23,42 @@ function App() {
   }, []);
   return (
     <main className="text-stone-900 py-10 w-[93%] container mx-auto">
-      <div className="flex justify-center items-center">
-        <img
-          className="max-w-full w-[60px] mr-2"
-          src="https://assets.website-files.com/62a6e19b906fa55f541799d7/62a6e2da4349165183f83d89_ngl_icon.png"
-          alt=""
-        />
-        {"    "}
-        <h2 className=" text-2xl md:text-3xl text-stroke-1	 text-white font-bold">
-          CDI
-        </h2>
+      <div className="flex justify-between">
+        <div className=""></div>
+        <div className="">
+          {" "}
+          <div className="flex justify-center items-center">
+            <img
+              className="max-w-full w-[60px] mr-2"
+              src="https://assets.website-files.com/62a6e19b906fa55f541799d7/62a6e2da4349165183f83d89_ngl_icon.png"
+              alt=""
+            />
+            {"    "}
+            <h2 className=" text-2xl md:text-3xl text-stroke-1	 text-white font-bold">
+              CDI
+            </h2>
+          </div>
+          <h2 className=" text-center text-base 	 text-white  italic">
+            By{" "}
+            <a
+              className="text-[#4baff1]"
+              href="https://www.instagram.com/not_pewdss_/"
+            >
+              Pewds
+            </a>
+          </h2>
+        </div>
+        <div className="">
+          <button
+            className=" text-[#111]   bg-[#FBB4A9] py-1 px-4 rounded-full"
+            onClick={() => {
+              window.open("/demo.mp4", "_blank");
+            }}
+          >
+            How it works
+          </button>
+        </div>
       </div>
-      <h2 className=" text-center text-base 	 text-white  italic">
-        By{" "}
-        <a
-          className="text-[#4baff1]"
-          href="https://www.instagram.com/not_pewdss_/"
-        >
-          Pewds
-        </a>
-      </h2>
 
       <div className="flex gap-12 flex-col md:flex-row ">
         <div className="course-container w-full md:w-[50%] mx-auto">
