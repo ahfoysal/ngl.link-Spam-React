@@ -86,7 +86,7 @@ const AddUser = ({ fetchUser }) => {
           <div className="flex gap-2 justify-end py-4  text-xs">
             {showCustomMessageButton && (
               <button
-                className=" text-[#111]   bg-[#FBB4A9] py-1 px-2 rounded-full"
+                className=" text-[#111] font-semibold  bg-[#FBB4A9] py-1 px-2 rounded-full"
                 onClick={handleAddCustomMessage}
               >
                 Add Custom Message
@@ -94,7 +94,7 @@ const AddUser = ({ fetchUser }) => {
             )}
             {showPasswordButton && (
               <button
-                className="text-[#111] bg-[#FBB4A9]  py-1 px-2 rounded-full"
+                className="text-[#111] font-semibold bg-[#FBB4A9]  py-1 px-2 rounded-full"
                 onClick={handleAddPassword}
               >
                 Add Password

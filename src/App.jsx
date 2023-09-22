@@ -50,12 +50,12 @@ function App() {
         </div>
         <div className="">
           <button
-            className=" text-[#111]   bg-[#FBB4A9] py-1 px-4 rounded-full"
+            className=" text-[#111]   bg-[#FBB4A9] py-1 font-semibold px-4 rounded-full"
             onClick={() => {
               window.open("/demo.mp4", "_blank");
             }}
           >
-            How it works
+            How it works!
           </button>
         </div>
       </div>
