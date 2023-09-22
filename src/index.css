@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600;700;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  background: #ec1187 linear-gradient(to bottom right, #ec1187 0%, #ff8d10 100%);
+  background-repeat: repeat;
+  width: 100vw;
+  font-family: "Inter", sans-serif;
+  /* max-height: 100vh; */
+  min-height: 100vh;
+  height: -webkit-fill-available;
+}
+.text-stroke-1 {
+  letter-spacing: 2px;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black;
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "image": "https://img-c.udemycdn.com/course/240x135/625204_436a_3.jpg",
+    "title": "The Web Developer Bootcamp 2023",
+    "headline": "10 Hours of React just added. Become a Developer With ONE course - HTML, CSS, JavaScript, React, Node, MongoDB and More!",
+    "id": 625204,
+    "price": 15000,
+    "credit": 2
+  },
+  {
+    "image": "https://img-c.udemycdn.com/course/240x135/756150_c033_2.jpg",
+    "title": "Angular - The Complete Guide (2023 Edition)",
+    "headline": "Master Angular (formerly \"Angular 2\") and build awesome, reactive web apps with the successor of Angular.js",
+    "id": 756150,
+    "price": 18000,
+    "credit": 5
+  },
+  {
+    "image": "https://img-c.udemycdn.com/course/240x135/851712_fc61_6.jpg",
+    "title": "The Complete JavaScript Course 2023: From Zero to Expert!",
+    "headline": "The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!",
+    "id": 851712,
+    "price": 22000,
+    "credit": 8
+  },
+  {
+    "image": "https://img-c.udemycdn.com/course/240x135/437398_46c3_10.jpg",
+    "title": "Build Responsive Real-World Websites with HTML and CSS",
+    "headline": "Learn modern HTML5, CSS3 and web design by building a stunning website for your portfolio! Includes flexbox and CSS Grid",
+    "id": 437398,
+    "price": 12000,
+    "credit": 3
+  },
+  {
+    "image": "https://img-c.udemycdn.com/course/240x135/705264_caa9_13.jpg",
+    "title": "Modern React with Redux [2023 Update]",
+    "headline": "Master React and Redux Toolkit.  Includes RTK Query, tons of custom hooks, and more!  Course 100% Updated November 2022",
+    "id": 705264,
+    "price": 17000,
+    "credit": 10
+  },
+  {
+    "image": "https://img-c.udemycdn.com/course/240x135/764164_de03_5.jpg",
+    "title": "The Complete Web Developer Course 3.0",
+    "headline": "Learn Web Development in 2023! Build apps, website, projects using HTML, CSS, Javascript, PHP, Python, MySQL & more!",
+    "id": 764164,
+    "price": 20000,
+    "credit": 4
+  },
+  {
+    "image": "https://img-c.udemycdn.com/course/240x135/1430746_2f43_10.jpg",
+    "title": "The Complete Web Developer in 2023: Zero to Mastery",
+    "headline": "Learn to code and become a Web Developer in 2023 with HTML, CSS, Javascript, React, Node.js, Machine Learning & more!",
+    "id": 1430746,
+    "price": 25000,
+    "credit": 7
+  },
+  {
+    "image": "https://img-c.udemycdn.com/course/240x135/995016_ebf4_3.jpg",
+    "title": "Vue - The Complete Guide (incl. Router & Composition API)",
+    "headline": "Vue.js is an awesome JavaScript Framework for building Frontend Applications! VueJS mixes the Best of Angular + React!",
+    "id": 995016,
+    "price": 13000,
+    "credit": 1
+  },
+  {
+    "image": "https://img-c.udemycdn.com/course/240x135/822444_a6db.jpg",
+    "title": "Python and Django Full Stack Web Developer Bootcamp",
+    "headline": "Learn to build websites with HTML , CSS , Bootstrap , Javascript , jQuery , Python 3 , and Django!",
+    "id": 822444,
+    "price": 14000,
+    "credit": 6
+  },
+  {
+    "image": "https://img-c.udemycdn.com/course/240x135/364426_2991_6.jpg",
+    "title": "JavaScript: Understanding the Weird Parts",
+    "headline": "An advanced JavaScript course for everyone! Scope, closures, prototypes, 'this', build your own framework, and more.",
+    "id": 364426,
+    "price": 11000,
+    "credit": 9
+  },
+  {
+    "image": "https://img-c.udemycdn.com/course/240x135/1352468_3d97_8.jpg",
+    "title": "Master Microservices with Spring Boot and Spring Cloud",
+    "headline": "Java Spring Boot Microservices 5-in-1 - Spring Boot, Spring Cloud, Docker, Kubernetes and REST API (REST Web Services)",
+    "id": 1352468,
+    "price": 16000,
+    "credit": 8
+  },
+  {
+    "image": "https://img-c.udemycdn.com/course/240x135/947098_02ec_2.jpg",
+    "title": "Understanding TypeScript",
+    "headline": "Boost your JavaScript projects with TypeScript: Learn all about core types, generics, TypeScript + React or Node & more!",
+    "id": 947098,
+    "price": 19000,
+    "credit": 6
+  },
+  {
+    "image": "https://img-c.udemycdn.com/course/240x135/1026604_790b_2.jpg",
+    "title": "Advanced CSS and Sass: Flexbox, Grid, Animations and More!",
+    "headline": "The most advanced and modern CSS course on the internet: master flexbox, CSS Grid, responsive design, and so much more.",
+    "id": 1026604,
+    "price": 23000,
+    "credit": 3
+  },
+  {
+    "image": "https://img-c.udemycdn.com/course/240x135/405926_02c8_2.jpg",
+    "title": "HTML and CSS for Beginners - Build a Website & Launch ONLINE",
+    "headline": "HTML and CSS for Beginners  course will give your all the knowledge you need to master HTML and CSS easily and quickly.",
+    "id": 405926,
+    "price": 12000,
+    "credit": 10
+  },
+  {
+    "image": "https://img-c.udemycdn.com/course/240x135/806922_6310_3.jpg",
+    "title": "The Complete ASP.NET MVC 5 Course",
+    "headline": "Learn to build fast and secure web applications with ASP.NET MVC 5 - The most popular course with 40,000+ students!",
+    "id": 806922,
+    "price": 17000,
+    "credit": 5
+  }
+]
