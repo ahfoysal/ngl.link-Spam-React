@@ -1,8 +1,9 @@
 import { useState } from "react";
 import supabase from "../config/supbase";
 import { toast } from "react-toastify";
-import { encodePassword } from "../utils/helper";
+import { encodePassword, extractUserName } from "../utils/helper";
 
+// eslint-disable-next-line react/prop-types
 const AddUser = ({ fetchUser }) => {
   const [userName, setUserName] = useState("");
   const [customMessage, setCustomMessage] = useState("");
@@ -12,7 +13,7 @@ const AddUser = ({ fetchUser }) => {
 
   const handleAddClick = async () => {
     const userObject = {
-      userName,
+      userName: extractUserName(userName),
       customMessage: customMessage || "r jibone ngl dibi?",
       passKey: encodePassword(key) || encodePassword("nglngl"),
     };
@@ -60,7 +61,7 @@ const AddUser = ({ fetchUser }) => {
           <input
             type="text"
             className="placeholder-slate-600 text-lg font-semibold bg-transparent outline-none resize-none  w-full focus:border-transparent focus:border-none active:border-none border-none hover:border-none focus-visible:border-none"
-            placeholder="User Name"
+            placeholder="User Name / NGL Link"
             value={userName}
             onChange={(e) => setUserName(e.target.value)}
           />

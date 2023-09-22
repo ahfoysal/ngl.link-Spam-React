@@ -24,7 +24,7 @@ function App() {
   return (
     <main className="text-stone-900 py-10 w-[93%] container mx-auto">
       <div className="flex justify-between">
-        <div className=""></div>
+        <div className="hidden lg:block"></div>
         <div className="">
           {" "}
           <div className="flex justify-center items-center">
