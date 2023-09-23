@@ -8,7 +8,7 @@ import axios from "axios";
 const AddUser = ({ fetchUser }) => {
   const [userName, setUserName] = useState("");
   const [customMessage, setCustomMessage] = useState("");
-  const [data, setData] = useState([]);
+
   const [key, setKey] = useState("");
   const [showCustomMessageButton, setShowCustomMessageButton] = useState(true);
   const [showPasswordButton, setShowPasswordButton] = useState(true);
@@ -52,33 +52,6 @@ const AddUser = ({ fetchUser }) => {
     setCustomMessage("");
     setKey("");
   };
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        // Replace 'YOUR_TOKEN' with your actual authorization token
-        const config = {
-          headers: {
-            Authorization: import.meta.env.VITE_token,
-          },
-        };
-
-        const response = await axios.get(import.meta.env.VITE_url, config);
-        setData(response.data);
-        console.log(response.data);
-      } catch (error) {
-        console.error("Error fetching data:", error);
-      }
-    };
-
-    // Fetch data initially
-    fetchData();
-
-    // Set up an interval to fetch data every 5 seconds (adjust as needed)
-    const intervalId = setInterval(fetchData, 5000);
-
-    // Clean up the interval when the component unmounts
-    return () => clearInterval(intervalId);
-  }, []);
 
   return (
     <div className="">
@@ -140,11 +113,11 @@ const AddUser = ({ fetchUser }) => {
           Add!
         </button>
       )}
-      <div className="mt-10">
+      {/* <div className="mt-10">
         <h2 className="text-[#FBB4A9] font-semibold text-lg">
           Total Message Sent
         </h2>
-      </div>
+      </div> */}
     </div>
   );
 };
