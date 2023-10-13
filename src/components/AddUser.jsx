@@ -17,7 +17,7 @@ const AddUser = ({ fetchUser }) => {
       setUserName("");
       alert("Tor abba ami");
       return (window.location.href =
-        "https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+        "https://www.youtube.com/watch?v=Wt4HPNm-W0c&t=90s");
     }
     const userObject = {
       userName: extractUserName(userName),
