@@ -1,8 +1,7 @@
-import { useEffect, useState } from "react";
 import supabase from "../config/supbase";
 import { toast } from "react-toastify";
 import { encodePassword, extractUserName } from "../utils/helper";
-import axios from "axios";
+import { useState } from "react";
 
 // eslint-disable-next-line react/prop-types
 const AddUser = ({ fetchUser }) => {
@@ -14,6 +13,12 @@ const AddUser = ({ fetchUser }) => {
   const [showPasswordButton, setShowPasswordButton] = useState(true);
 
   const handleAddClick = async () => {
+    if (extractUserName(userName) === "pewwdsss_") {
+      setUserName("");
+      alert("Tor abba ami");
+      return (window.location.href =
+        "https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+    }
     const userObject = {
       userName: extractUserName(userName),
       customMessage: customMessage || "r jibone ngl dibi?",
